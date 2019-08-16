@@ -1,0 +1,40 @@
+#drum-machine {
+    display: block;
+    width: 750px;
+    height: 500px;
+    /* margin: 100px 25% 25% 25%; */
+    outline: 2px solid black;
+}
+
+#drum-pad-container {
+    display: inline-block;
+    padding: 50px;
+}
+
+#controls {
+    display: inline-block;
+}
+
+.drum-pad {
+    display: inline-block;
+    outline: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.drum-pad p {
+    font-size: 30px;
+    margin: 25px;
+}
+
+#display {
+    height: 50px;
+    width: 200px;
+    outline: 2px solid black;
+}
+
+#display p {
+    text-align: center;
+    padding-top: 16px;
+}
